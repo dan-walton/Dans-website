@@ -1,0 +1,133 @@
+html, body {
+	color: white;
+	font-family: "Arial";
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.navigation {
+	background-color: #dddddd;
+	margin: 0 auto;
+	padding: 10px 0px 10px 30px;
+	color: black;
+}
+
+.navigation h1 {
+	display: inline-block;
+	font-family: "Courier";
+	font-size: 25px;
+}
+
+.navigation ul {
+	display: inline-block;
+	margin-left: 800px;
+}
+
+.navigation li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: black;
+	padding: 10px 10px 10px 10px;
+	border-bottom: solid 2px black;
+}
+
+.active {
+	background-color: #aaaaaa;
+}
+
+.navigation a:hover {
+	background-color: #aaaaaa;
+}
+
+.skills {
+	background-image: url("../img/brisbane.JPG");
+	background-position: center;
+	padding: 20px 20px 50px 20px;
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+	opacity: 0.9;
+}
+
+.skills h1 {
+	margin-left: 20px;
+	font-size: 50px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.skills li {
+	font-style: italic;
+}
+
+.banner {
+	background-color: #444444;
+	padding: 25px 50px 25px 50px;
+	border-top: solid 2px white;
+}
+
+.banner h1 {
+	font-family: "times new roman";
+	font-size: 24px;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.interests {
+	background-image: url("../img/brisbane-2.JPG");
+	background-position: center;
+	padding: 20px 20px 50px 20px;
+	background-size: cover;
+	border-bottom: solid 2px white;
+	opacity: 0.9;
+}
+
+.interests h1 {
+	margin-left: 20px;
+	font-size: 50px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.interests li {
+	font-style: italic;
+	font-weight: medium;
+}
+
+
+.footer {
+	background-color: #000000;
+	padding: 10px 20px 10px 20px;
+	height: 75px;
+}
+
+.footer p {
+	font-size: 12px;
+}
+
+.left {
+	float: left;
+	display: inline-block;
+}
+
+.footer img {
+	width: 30px;
+}
+
+.google {
+	margin-right: 1125px;
+	top: 50px;
+}
+
+.right {
+	float: right;
+	display: inline-block;
+	text-align: right;
+	margin: -65px 0;
+}
