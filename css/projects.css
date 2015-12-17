@@ -10,6 +10,7 @@ html, body {
 	margin: 0 auto;
 	padding: 10px 0px 10px 30px;
 	color: black;
+	height: 60px;
 }
 
 .navigation h1 {
@@ -20,7 +21,6 @@ html, body {
 
 .navigation ul {
 	display: inline-block;
-	margin-left: 800px;
 }
 
 .navigation li {
@@ -34,6 +34,11 @@ html, body {
 	color: black;
 	padding: 10px 10px 10px 10px;
 	border-bottom: solid 2px black;
+}
+
+.navbar {
+	width: 400px;
+	float: right;
 }
 
 .active {
