@@ -10,6 +10,7 @@ html, body {
 	margin: 0 auto;
 	padding: 10px 0px 10px 30px;
 	color: black;
+	height: 100%;
 }
 
 .navigation h1 {
@@ -20,7 +21,6 @@ html, body {
 
 .navigation ul {
 	display: inline-block;
-	margin-left: 800px;
 }
 
 .navigation li {
@@ -34,6 +34,11 @@ html, body {
 	color: black;
 	padding: 10px 10px 10px 10px;
 	border-bottom: solid 2px black;
+}
+
+.navbar {
+	width: 400px;
+	float: right;
 }
 
 .active {
@@ -114,20 +119,36 @@ html, body {
 .left {
 	float: left;
 	display: inline-block;
+	width: 150px;
 }
 
 .footer img {
 	width: 30px;
+	display: inline-block;
 }
 
 .google {
-	margin-right: 1125px;
-	top: 50px;
+	margin-left: 10px;
 }
 
 .right {
 	float: right;
 	display: inline-block;
 	text-align: right;
-	margin: -65px 0;
+	width: 150px;
+}
+
+@media screen and (max-width: 642px) {
+	.navbar {
+		clear: both;
+		text-align: right;
+	}
+
+	.navigation {
+		height: 150px;
+	}
+
+	.banner img {
+		height: 50%;
+	}
 }
