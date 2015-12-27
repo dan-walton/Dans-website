@@ -10,7 +10,11 @@ html, body {
 	margin: 0 auto;
 	padding: 10px 0px 10px 30px;
 	color: black;
+<<<<<<< HEAD
 	height: 100%;
+=======
+	height: 60px;
+>>>>>>> origin/master
 }
 
 .navigation h1 {
@@ -40,7 +44,10 @@ html, body {
 	width: 400px;
 	float: right;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 .active {
 	background-color: #aaaaaa;
 }
@@ -80,7 +87,6 @@ html, body {
 	font-size: 40px;
 	color: white;
 }
-
 .footer {
 	background-color: #000000;
 	padding: 10px 20px 10px 20px;
@@ -94,7 +100,11 @@ html, body {
 .left {
 	float: left;
 	display: inline-block;
+<<<<<<< HEAD
 	width: 150px;
+=======
+	width: 300px;
+>>>>>>> origin/master
 }
 
 .footer img {
@@ -110,6 +120,7 @@ html, body {
 	float: right;
 	display: inline-block;
 	text-align: right;
+<<<<<<< HEAD
 	width: 150px;
 }
 
@@ -127,3 +138,7 @@ html, body {
 		height: 50%;
 	}
 }
+=======
+	width: 300px;
+}
+>>>>>>> origin/master
